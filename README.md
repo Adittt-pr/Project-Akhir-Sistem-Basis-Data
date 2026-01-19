@@ -1,3 +1,7 @@
+<p align="center"> <img src="https://lh3.googleusercontent.com/d/1-TrhdCX8Geg0MPz6wW44Gst2bRhawRC3" width="300" alt="TRPL Logo"> </p>
+<h1 align="center">🛒 Sistem Transaksi Penjualan Toko Maju Homeware 🛒</h1>
+<p align="center"> <b>Management System Transaksi</b>
+  
 # Project-Akhir-Sistem-Basis-Data
 👥 Anggota Kelompok 👥
 1. Muhammad Nur Hasan Majid
