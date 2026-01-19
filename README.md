@@ -16,10 +16,13 @@ __Proyek Akhir Mata Kuliah Sistem Basis Data - Universitas Duta Bangsa Surakarta
 
 Proyek ini adalah sistem manajemen basis data relasional yang dirancang untuk toko retail alat rumah tangga (Studi Kasus: Toko Wadah Plastik). Sistem ini mengintegrasikan pendataan barang, manajemen pemasok (vendor), serta pencatatan transaksi penjualan yang melibatkan kasir, sales, dan pelanggan.
 
+
 🛠️ 2. Tools yang Digunakan 🛠️
 
 a. MySQL: Sebagai Sistem Manajemen Database (DBMS).
+
 b XAMPP: Sebagai server lokal untuk menjalankan layanan MySQL (MariaDB).
+
 c. MySQL Workbench / phpMyAdmin: (Opsional) Untuk mempermudah eksekusi query dan visualisasi data.
 
 📂 3. Struktur Repository 📂
@@ -29,6 +32,7 @@ c. MySQL Workbench / phpMyAdmin: (Opsional) Untuk mempermudah eksekusi query dan
   B. Laporan_SBD_Kelompok04.pdf : Laporan resmi lengkap (Bab 1 - Bab 4).
   
   C. Poster_SBD_Kelompok04.pdf : Poster publikasi proyek.
+
 
 📂--- 4. Struktur Database ---📂
 
@@ -41,12 +45,17 @@ Proyek ini terdiri dari beberapa tabel utama:
 6. vendor: Hubungan antara pemasok dan barang yang disediakan.
 7. transaksi & detailBarang: Mencatat histori penjualan dan rincian item.
 
+
 📊 5. Langkah Instalasi & Setup Database 📊
 
 1. install dan buka xampp jalankan (start) Apache dan MySQL
 2. install dan buka MySQL setelah itu setup new connetion dan buat data base
 
+
+
 🧬 6. Rancangan Database (Sub-Bab Detail) 🧬
+
+
 
 🏗️ A. Data Definition Language (DDL)
 
@@ -69,6 +78,7 @@ Kami membangun database bernama UAS dengan 7 tabel utama. Setiap tabel menggunak
  a. transaksi: Header transaksi (Nomor nota, Tanggal, Total, Kembalian).
 
  b. detailBarang: Tabel penghubung antara transaksi dan item barang yang dibeli.
+ 
 
 📥 B. Data Manipulation Language (DML)
 
@@ -80,7 +90,9 @@ Kami telah memasukkan data simulasi (seed data) yang mencakup:
 
  c. Skenario transaksi lengkap dengan perhitungan kas dan kembalian.
 
+
 🔍 7. Analisis Query (Fitur Utama) 🔍
+
 
 📊 Agregasi & Grouping 
 
